@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { Right, Button, Text, View, Touchable, Image, Left, Header, Title, Body, Container, Content } from "./components";
+// import styles from './styles'
 export default class App extends React.Component {
 	render() {
 		return (
@@ -15,7 +16,6 @@ export default class App extends React.Component {
 					</View>
 				</Content>
 			</Container>
-
 		);
 	}
 }
